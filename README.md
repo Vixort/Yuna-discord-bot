@@ -12,6 +12,12 @@ She responds to `!ask` messages using your custom persona defined in a `persona.
 - Supports environment variables with `.env`
 - Lightweight, no database required
 
+### Persistent Chat Log
+- Saves every single message (user + bot) to chat_history/{user_id}.jsonl
+- Useful for auditing, training data, or personal review
+- Separated per user and stored in JSON Lines format
+
+
 ---
 
 ## ⚙️ Installation (Windows)
