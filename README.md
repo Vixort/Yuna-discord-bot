@@ -5,7 +5,7 @@ She responds to `!ask` messages using your custom persona defined in a `persona.
 
 ---
 
-## Features
+## 🧩 Features
 
 - Chat with Gemini AI using natural language
 - Custom personality via `persona.json`
@@ -13,10 +13,16 @@ She responds to `!ask` messages using your custom persona defined in a `persona.
 - Lightweight, no database required
 
 ### Persistent Chat Log
+
 - Saves every single message (user + bot) to chat_history/{user_id}.jsonl
 - Useful for auditing, training data, or personal review
 - Separated per user and stored in JSON Lines format
 
+### Flexible Personality System
+
+- Loads character configuration from persona.json
+- You can define name, role, behavior, personality, and system prompt
+- Easy to edit without modifying the main codee
 
 ---
 
