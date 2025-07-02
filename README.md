@@ -14,8 +14,6 @@ She responds to `!ask` messages using your custom persona defined in a `persona.
 
 ---
 
----
-
 ## ⚙️ Installation (Windows)
 
 ### 1. Install Python 3.8 or higher  
