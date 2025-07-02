@@ -31,8 +31,30 @@ You can use Git Bash, Command Prompt, or PowerShell
 ```bash
 git clone https://github.com/Vixort/Yuna-discord-bot.git
 cd Yuna-discord-bot
+```
 
-4. (Optional) Create a virtual environment
+### 4. (Optional) Create a virtual environment
+```bash
 python -m venv venv
 venv\Scripts\activate
+```
+
+### 5. Install dependencies
+```bash
+pip install discord.py google-generativeai python-dotenv
+
+```
+### 6. Configure environment variables
+```.env
+DISCORD_TOKEN=your_discord_bot_token
+GEMINI_API_KEY=your_gemini_api_key
+```
+
+### 7. Run the bot
+```bash
+python Yuna.py
+```
+
+---
+
 
