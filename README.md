@@ -59,12 +59,15 @@ pip install discord.py google-generativeai python-dotenv
 DISCORD_TOKEN=your_discord_bot_token
 GEMINI_API_KEY=your_gemini_api_key
 ```
+### 7.Create your folder memory.json
+```bash
+mkdir memory.json
+```
 
-### 7. Run the bot
+### 8. Run the bot
 ```bash
 python Yuna.py
 ```
-
 ---
 
 
