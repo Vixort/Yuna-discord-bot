@@ -13,3 +13,26 @@ She responds to `!ask` messages using your custom persona defined in a `persona.
 - Lightweight, no database required
 
 ---
+
+---
+
+## ⚙️ Installation (Windows)
+
+### 1. Install Python 3.8 or higher  
+[Download Python](https://www.python.org/downloads/windows/)  
+Make sure to check “Add Python to PATH” during installation
+
+### 2. Install Git  
+[Download Git](https://git-scm.com/download/win)  
+You can use Git Bash, Command Prompt, or PowerShell
+
+### 3. Clone this repository
+
+```bash
+git clone https://github.com/Vixort/Yuna-discord-bot.git
+cd Yuna-discord-bot
+
+4. (Optional) Create a virtual environment
+python -m venv venv
+venv\Scripts\activate
+
